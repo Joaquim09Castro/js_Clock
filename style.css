@@ -1,0 +1,64 @@
+html {
+  background: linear-gradient(45deg, #4757fb 5%, #ffac00);
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  background: #c666ea9d;
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.digital-clock {
+  width: 30rem;
+  height: 10rem;
+  color: #fdfdfd;
+  background-color: #000000c4;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2.5px #cecece;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid #6b6bcf;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow:
+    0.4px 0.4px 10px 3px #000000,
+    inset 0 0 0 3px #acac6e,
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: linear-gradient(40deg, #6a6a6a, #b3b3b3b9, #848484);
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
