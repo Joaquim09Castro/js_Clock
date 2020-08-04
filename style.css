@@ -56,9 +56,21 @@ body {
 .hand {
   width: 50%;
   height: 6px;
-  background: linear-gradient(40deg, #6a6a6a, #b3b3b3b9, #848484);
+  border-radius: 70%;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
+}
+
+.second-hand {
+  background: linear-gradient(60deg, #2b2b2b, #636363, #444444);
+}
+
+.min-hand {
+  background: linear-gradient(60deg, #6a6a6a, #b3b3b3b9, #848484);
+}
+
+.hour-hand {
+  background: linear-gradient(60deg, #bfbf22, #dfdf8a, #cfcf7f);
 }
